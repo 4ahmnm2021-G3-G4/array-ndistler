@@ -16,9 +16,9 @@ void Start()
 {
     foreach (float array2f in array2)
         {
-            Debug.Log("Array2: " + array2f);
+            Debug.Log("Float Array2: " + array2f);
         }
-        Debug.Log("Array1: " + array1.Length);
+        Debug.Log("Length Array1: " + array1.Length);
         array3[1] = 2;
         array3[2] = 1;
         array4 = GameObject.FindGameObjectsWithTag("RedImage");
